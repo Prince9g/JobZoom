@@ -12,10 +12,12 @@ import ResumeBuilder from "./components/ResumeBuilder";
 import SecPart2 from "./components/SecPart2";
 import ChatBot from "./components/ChatBot";
 import SignIn from "./components/SignIn";
+import TestBar from "./components/TestBar";
 function App() {
   return (<>
     <NavBar/>
     <ChatBot/>
+    <TestBar/>
     <Main/>
     <RecurCards/>
     <SecondPage/>

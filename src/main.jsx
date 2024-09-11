@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import CombineSignup from './components/CombineSignup';
 import CompanySignUp from './components/CompanySignUp.jsx';
 import SignIn from './components/SignIn.jsx';
+import QuizComponent from './components/QuizComponent.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,9 @@ path:"/", element:<App/>
   },
   {
     path:"/sign-in", element:<SignIn/>
+  },
+  {
+    path:"/take-test", element:<QuizComponent/>
   }
 ])
 createRoot(document.getElementById('root')).render(
